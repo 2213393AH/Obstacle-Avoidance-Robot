@@ -50,9 +50,16 @@ The ultrasonic sensor measures the distance to objects in front of the car.
 If no obstacle is detected within the threshold (e.g., 20 cm), the car moves forward.
 If an obstacle is detected, the car stops and turns to avoid the object.
 The process repeats, allowing the car to navigate autonomously.
-Usage.
 
-## Upload the Arduino code to the Arduino Uno.
+## Usage
+Upload the Arduino code to the Arduino Uno.
 Connect the components as described in the wiring section.
 Power up the Arduino and the motors.
 The car will start moving and automatically avoid obstacles.
+
+## License
+This project is licensed under the MIT License.
+
+### Instructions:
+- Save this content into a `README.md` file in your GitHub repository.
+- This file provides all the necessary information for anyone who views your project: components, wiring, code, and instructions on how the car works.
