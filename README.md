@@ -41,5 +41,18 @@ This robotic car uses four DC motors controlled by an L298N motor driver, and an
     - M3 and M4 → Right-side motors
 
 ## Arduino Code
-```cpp
-// Arduino code goes here (refer to your main Arduino sketch)
+// code is in code.cpp file 
+
+
+
+## How It Works
+The ultrasonic sensor measures the distance to objects in front of the car.
+If no obstacle is detected within the threshold (e.g., 20 cm), the car moves forward.
+If an obstacle is detected, the car stops and turns to avoid the object.
+The process repeats, allowing the car to navigate autonomously.
+Usage.
+
+## Upload the Arduino code to the Arduino Uno.
+Connect the components as described in the wiring section.
+Power up the Arduino and the motors.
+The car will start moving and automatically avoid obstacles.
